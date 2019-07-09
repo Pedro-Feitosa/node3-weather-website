@@ -55,7 +55,7 @@ app.get('/weather', (req, res) => {
                     location,
                     forecast: forecastData.summary,
                     temperature: forecastData.temperature,
-                    precipitação: forecastData.precipProbability
+                    windSpeed: forecastData.windSpeed
                 })
             })
         })
